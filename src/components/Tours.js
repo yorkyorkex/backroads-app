@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from './Title'
-import { tours } from '../data'
 import Tour from './Tour'
+import { tours } from '../data'
 
 const Tours = () => {
   return (
