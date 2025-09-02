@@ -17,8 +17,8 @@ const Navbar = () => {
         <PageLinks parentClass="nav-links" itemClass="nav-link" />
 
         <ul className="nav-icons">
-          {socialLinks.map(({ id, ...link }) => {
-            return <SocialLink key={id} {...link} itemClass="nav-icon" />
+          {socialLinks.map((link) => {
+            return <SocialLink key={link.id} {...link} itemClass="nav-icon" />
           })}
         </ul>
       </div>
